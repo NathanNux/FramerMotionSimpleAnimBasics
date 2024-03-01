@@ -58,7 +58,7 @@ export const Features = () => {
         >
           <span className="text-primary">Preconfigured environments</span>
           <br />
-          We detect your environment so you don't need to fiddle with
+          We detect your environment so you don&apos;t need to fiddle with
           configuration files.
         </motion.p>
         <motion.p
