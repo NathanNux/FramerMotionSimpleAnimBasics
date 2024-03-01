@@ -2,6 +2,7 @@ import { useScroll, useTransform, motion } from "framer-motion"
 import { useRef } from "react"
 import { BranchIcon } from "../icons/branch";
 import { stylesWithCssVar } from "@/utils/motion";
+import Image from "next/image";
 
 
 // each value is a percentage of the viewport height or how much do you scroll on that page to trigger the animation (%)
@@ -188,7 +189,7 @@ export const SamePage = () => {
                   "--scale": scale,
                 })}
               >
-                <img src="/main-screen.svg" className="h-auto w-full" />
+                <Image src="/main-screen.svg" className="h-auto w-full" alt="main-screen" />
                 <motion.img
                   style={{ opacity: avatarOpacity }}
                   className="absolute left-[13%] top-1/2 h-[1.5vw] w-[1.5vw] translate-y-1/2 rounded-full border border-[#c82] object-cover will-change-transform"

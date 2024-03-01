@@ -1,5 +1,6 @@
 import { stylesWithCssVar } from "@/utils/motion";
 import { useScroll, useTransform, motion } from "framer-motion";
+import Image from "next/image";
 import { useRef } from "react";
 
 export const Features = () => {
@@ -31,18 +32,20 @@ export const Features = () => {
       <div className="sticky top-[16.7vh] h-[66.8vh] px-16 text-2xl leading-[1] text-white [&_p]:w-[45rem] [&_p]:max-w-[90%]">
         <motion.div style={{ x, scale }} className="relative h-full">
           <motion.figure style={{ opacity }} className="h-full">
-            <img src="/main-screen.svg" className="h-full w-auto" />
+            <Image src="/main-screen.svg" className="h-full w-auto" alt="Main Screen" />
           </motion.figure>
           <motion.figure style={{ opacity: text2Opacity }}>
-            <img
+            <Image
               src="/command-palette.svg"
               className="absolute inset-0 h-full w-auto"
+              alt="Command Palette"
             />
           </motion.figure>
           <motion.figure style={{ opacity: text3Opacity }}>
-            <img
+            <Image
               src="/devtools.svg"
               className="absolute inset-0 h-full w-auto"
+              alt="Devtools"
             />
           </motion.figure>
         </motion.div>
