@@ -223,7 +223,7 @@ export const SamePage = () => {
                   style={{ opacity: newBranchOpacity }}
                 >
                   <BranchIcon className="mr-3 inline-block h-12 w-12" /> Frontend
-                  FYI's branch
+                  FYI&apos;s branch
                 </motion.span>
               </motion.div>
     
@@ -259,7 +259,7 @@ export const SamePage = () => {
               })}
               className="translate-y-centered-offset top-1/2 right-[20px] w-[300px] pr-16 text-xl leading-tight text-white"
             >
-              Sometimes it's not about code.
+              Sometimes it&apos;s not about code.
               <br />
               <span className="text-primary">
                 Get everybody on the same page. Literally.

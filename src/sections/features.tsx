@@ -81,7 +81,7 @@ export const Features = () => {
         >
           <span className="text-primary">Devtools</span>
           <br />
-          We've bundled useful tools to help you get your work done faster and
+          We&apos;ve bundled useful tools to help you get your work done faster and
           more efficiently.
         </motion.p>
       </div>
